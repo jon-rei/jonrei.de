@@ -39,11 +39,6 @@ pygmentscodefencesguesssyntax = true
     weight = 1
     url = "https://github.com/jon-rei/"
 [[params.social]]
-    name = "DockerHub"
-    icon = "fa fa-docker"
-    weight = 2
-    url = "https://hub.docker.com/u/jonreide"
-[[params.social]]
     name = "LinkedIn"
     icon = "fa fa-linkedin"
     weight = 3
