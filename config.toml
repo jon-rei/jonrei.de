@@ -35,21 +35,21 @@ pygmentscodefencesguesssyntax = true
 # Social links
 [[params.social]]
     name = "Github"
-    icon = "fab fa-github fa-2x"
+    icon = "fa-github fa-2x"
     weight = 1
     url = "https://github.com/jon-rei/"
 [[params.social]]
     name = "DockerHub"
-    icon = "fab fa-docker fa-2x"
+    icon = "fa-docker fa-2x"
     weight = 2
     url = "https://hub.docker.com/u/jonreide"
 [[params.social]]
     name = "LinkedIn"
-    icon = "fab fa-linkedin fa-2x"
+    icon = "fa-linkedin fa-2x"
     weight = 3
     url = "https://www.linkedin.com/in/jonas-reineke/"
 [[params.social]]
     name = "Xing"
-    icon = "fab fa-xing fa-2x"
+    icon = "fa-xing fa-2x"
     weight = 4
     url = "https://www.xing.com/profile/Jonas_Reineke2"
