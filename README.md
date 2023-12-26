@@ -15,9 +15,3 @@ hugo --gc --minify
 ```bash
 git submodule update --rebase --remote
 ```
-
-## Update themes
-
-```bash
-git submodule update --remote --merge
-```
