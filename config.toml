@@ -1,5 +1,5 @@
 
-baseurl = "https://www.jonrei.de"
+baseurl = "https://jonrei.de"
 title = "jonrei"
 theme = "hugo-coder"
 languagecode = "en"
