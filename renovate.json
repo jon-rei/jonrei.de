@@ -3,7 +3,7 @@
   "extends": [
     "config:recommended"
   ],
-  "gitSubmodules": {
+  "git-submodules": {
     "enabled": true
   }
 }
