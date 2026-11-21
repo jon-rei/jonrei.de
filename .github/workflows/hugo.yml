@@ -15,6 +15,13 @@ jobs:
         with:
           hugo-version: "latest"
           extended: true
+      - name: Install Dart Sass
+        env:
+          DART_SASS_VERSION: 1.108.2
+        run: |
+          curl -sfSL --retry 3 -o /tmp/dart-sass.tar.gz "https://github.com/sass/dart-sass/releases/download/${DART_SASS_VERSION}/dart-sass-${DART_SASS_VERSION}-linux-x64.tar.gz"
+          tar -xzf /tmp/dart-sass.tar.gz -C /tmp
+          echo "/tmp/dart-sass" >> "$GITHUB_PATH"
       - name: Build site with Hugo
         run: hugo --minify
       - name: rsync deployments

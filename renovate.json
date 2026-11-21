@@ -8,5 +8,13 @@
   "ignoreTests": true,
   "git-submodules": {
     "enabled": true
-  }
+  },
+  "regexManagers": [
+    {
+      "fileMatch": ["^\\.github/workflows/hugo\\.yml$"],
+      "matchStrings": ["DART_SASS_VERSION: (?<currentValue>[0-9]+\\.[0-9]+\\.[0-9]+)"],
+      "depNameTemplate": "sass/dart-sass",
+      "datasourceTemplate": "github-releases"
+    }
+  ]
 }
